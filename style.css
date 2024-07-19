@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(img/home.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.nav {
+  align-content: flex-start;
+  text-align: right;
+}
+img {
+  width: 50px;
+  height: 30px;
+  padding-right: 5px;
+}
+.nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  transition: 2s ease;
+}
+.nav ul li a:hover {
+  color: #191cd0;
+}
+.reg {
+  text-align: justify;
+  justify-content: flex-start;
+  display: grid;
+  text-decoration: solid;
+  align-items: flex-end;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 2% 6%;
+}
+
+p {
+  font-size: larger;
+  text-decoration: solid;
+  text-align: center;
+}
+.navbar {
+  align-content: flex-start;
+  text-align: left;
+  display: flex;
+}
+.content {
+  text-align: center;
+  padding-top: 0%;
+}
